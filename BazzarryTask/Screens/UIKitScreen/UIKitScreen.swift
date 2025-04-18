@@ -94,6 +94,10 @@ class UIKitScreen: UIViewController {
         navigateToPage(direction: .next)
     }
     
+    @IBAction func dismiss(_ sender: UIButton){
+        dismiss(animated: true)
+    }
+    
     // Navigation direction enum
     private enum NavigationDirection {
         case next

@@ -79,6 +79,9 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" image="chevron.right" catalog="system"/>
+                                    <connections>
+                                        <action selector="dismiss:" destination="-1" eventType="touchUpInside" id="aJn-1b-gXn"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" red="0.40000000000000002" green="0.34509803919999998" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -515,11 +518,11 @@
                                                                                     </subviews>
                                                                                 </stackView>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEO-La-NH7">
-                                                                                    <rect key="frame" x="235.33333333333334" y="93.666666666666629" width="109.66666666666666" height="20.666666666666671"/>
+                                                                                    <rect key="frame" x="212.66666666666663" y="93.666666666666629" width="132.33333333333337" height="20.666666666666671"/>
                                                                                     <attributedString key="attributedText">
                                                                                         <fragment content="بناء">
                                                                                             <attributes>
-                                                                                                <font key="NSFont" size="14" name=".SFArabic-Regular"/>
+                                                                                                <font key="NSFont" metaFont="system" size="14"/>
                                                                                                 <font key="NSOriginalFont" metaFont="menu" size="14"/>
                                                                                             </attributes>
                                                                                         </fragment>
@@ -530,7 +533,7 @@
                                                                                         </fragment>
                                                                                         <fragment content="على">
                                                                                             <attributes>
-                                                                                                <font key="NSFont" size="14" name=".SFArabic-Regular"/>
+                                                                                                <font key="NSFont" metaFont="system" size="14"/>
                                                                                                 <font key="NSOriginalFont" metaFont="menu" size="14"/>
                                                                                             </attributes>
                                                                                         </fragment>
@@ -552,7 +555,7 @@
                                                                                         </fragment>
                                                                                         <fragment content="من">
                                                                                             <attributes>
-                                                                                                <font key="NSFont" size="14" name=".SFArabic-Regular"/>
+                                                                                                <font key="NSFont" metaFont="system" size="14"/>
                                                                                                 <font key="NSOriginalFont" metaFont="menu" size="14"/>
                                                                                             </attributes>
                                                                                         </fragment>
@@ -563,7 +566,7 @@
                                                                                         </fragment>
                                                                                         <fragment content="التقييمات">
                                                                                             <attributes>
-                                                                                                <font key="NSFont" size="14" name=".SFArabic-Regular"/>
+                                                                                                <font key="NSFont" metaFont="system" size="14"/>
                                                                                                 <font key="NSOriginalFont" metaFont="menu" size="14"/>
                                                                                             </attributes>
                                                                                         </fragment>
